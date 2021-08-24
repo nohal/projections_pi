@@ -1,7 +1,7 @@
 site:
   title: Projections Plugin Manual
   url:  https://nowhere.net
-  start_page: projections:ROOT:projections.adoc
+  start_page: projections:ROOT:index.adoc
 
 content:
   sources:
