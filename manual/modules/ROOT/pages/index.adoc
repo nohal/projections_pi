@@ -1,6 +1,6 @@
-== Projections
+= Projections
 
-=== Links
+== Links
 
 * Source: https://github.com/seandepagnier/projections_pi
 * Downloads: https://opencpn.org/OpenCPN/plugins/projections.html
@@ -9,7 +9,7 @@ http://www.cruisersforum.com/forums/showthread.php?p=2633744[Projections_pi
 Thread]
 * YouTube: https://www.youtube.com/watch?v=NrM6dMi0UbI[Projections]
 
-=== How to set the Projection
+== How to set the Projection
 
 Right click anywhere on the chart and pick the Projection from the list
 available. +
