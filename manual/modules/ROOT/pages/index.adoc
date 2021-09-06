@@ -3,11 +3,19 @@
 == Links
 
 * Source: https://github.com/seandepagnier/projections_pi
+* Maintenance Source: https://github.com/rgleason/projections_pi
 * Downloads: https://opencpn.org/OpenCPN/plugins/projections.html
-* Forum:
-http://www.cruisersforum.com/forums/showthread.php?p=2633744[Projections_pi
-Thread]
+* Forum: http://www.cruisersforum.com/forums/showthread.php?p=2633744[Projections_pi Thread]
 * YouTube: https://www.youtube.com/watch?v=NrM6dMi0UbI[Projections]
+
+== What and Why
+
+This plugin shows 4 basic Projections and can be used with OpenCPN as is, 
+or for programming support for various projections.
+
+== Installation
+
+The OpenCPN Manual has general information in xref:opencpn-plugins:misc:plugin-install.adoc[Plugin Download, Install and Enable] for installing this plugin.
 
 == How to set the Projection
 
