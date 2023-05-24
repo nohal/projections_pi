@@ -26,6 +26,7 @@
 
 #include "ProjectionsUI.h"
 #include "ocpn_plugin.h"
+#include <wx/dcmemory.h>
 
 class PreferencesDialog : public PreferencesDialogBase {
 public:
