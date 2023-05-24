@@ -71,4 +71,3 @@ msgstr "Projections-plugin pakub alternatiivseid projektsioone\n"
 "Need projektsioonid võivad olla kasulikud navigatsiooniandmete veel täpsemal interpreteerimisel\n"
 "Näiteks on Mercator-projektsioonid kõrgetel laiuskaraadidel eriti moonutatud\n\n"
 " See plugin vajab aktiveeritud OpenGL'i.\n"
-

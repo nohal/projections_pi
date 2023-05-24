@@ -10,7 +10,7 @@
 
 == What and Why
 
-This plugin shows 4 basic Projections and can be used with OpenCPN as is, 
+This plugin shows 4 basic Projections and can be used with OpenCPN as is,
 or for programming support for various projections.
 
 == Installation
@@ -24,24 +24,24 @@ available. +
  +
 Mercator Projection
 
-image::1-mercator.jpeg[] 
- 
+image::1-mercator.jpeg[]
+
 Orthographic Projection
 
 image::2-orthographic.png[]
 
 Polar Projection
 
-image::3-polar.jpeg[] 
- 
+image::3-polar.jpeg[]
+
 Stereogrphic Projection
 
-image::4-stereographic.jpeg[] 
- 
-Gnomonic Projection 
+image::4-stereographic.jpeg[]
 
-image::5-gnomonic.jpeg[] 
- 
-Equirectangular Projection 
+Gnomonic Projection
+
+image::5-gnomonic.jpeg[]
+
+Equirectangular Projection
 
 image::6-equirectangular.jpeg[]

@@ -24,10 +24,10 @@
  ***************************************************************************
  */
 
-#include "projections_pi.h"
 #include "PreferencesDialog.h"
+#include "projections_pi.h"
 
-void PreferencesDialog::OnAboutAuthor( wxCommandEvent& event )
+void PreferencesDialog::OnAboutAuthor(wxCommandEvent& event)
 {
     wxLaunchDefaultBrowser(_T(ABOUT_AUTHOR_URL));
 }

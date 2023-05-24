@@ -24,16 +24,18 @@
  ***************************************************************************
  */
 
-#include "ocpn_plugin.h"
 #include "ProjectionsUI.h"
+#include "ocpn_plugin.h"
 
-class PreferencesDialog : public PreferencesDialogBase
-{
+class PreferencesDialog : public PreferencesDialogBase {
 public:
-    PreferencesDialog( wxWindow *parent ) : PreferencesDialogBase( parent ) {}
+    PreferencesDialog(wxWindow* parent)
+        : PreferencesDialogBase(parent)
+    {
+    }
     void Refresh() { RequestRefresh(GetOCPNCanvasWindow()); }
-    virtual void Refresh( wxScrollEvent& event ) { Refresh(); }
-    virtual void Refresh( wxCommandEvent& event ) { Refresh(); }
-    virtual void Refresh( wxSpinEvent& event ) { Refresh(); }
-    void OnAboutAuthor( wxCommandEvent& event );
+    virtual void Refresh(wxScrollEvent& event) { Refresh(); }
+    virtual void Refresh(wxCommandEvent& event) { Refresh(); }
+    virtual void Refresh(wxSpinEvent& event) { Refresh(); }
+    void OnAboutAuthor(wxCommandEvent& event);
 };

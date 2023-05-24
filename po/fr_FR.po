@@ -71,4 +71,3 @@ msgstr "Le complément Projections offre des projections alternatives\n"
 "Ces projections peuvent être utiles pour une interprétation plus précise des données de navigation\n"
 "Les projections de mercator sont particulièrement inclinées dans les latitudes élevées.\n\n"
 " Ce complément nécessite que OpenGL soit activé.\n"
-

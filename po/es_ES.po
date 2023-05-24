@@ -71,4 +71,3 @@ msgstr "El plugin de proyecciones ofrece proyecciones alternativas\n"
 "Estas proyecciones pueden ser útiles para una interpretación más precisa de los datos de navegación\n"
 "Las proyecciones de Mercator son especialmente sesgadas en latitudes altas.\n\n"
 " Este complemento requiere OpenGL habilitado.\n"
-

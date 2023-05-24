@@ -4,11 +4,11 @@
 
 #include <wx/wxprec.h>
 #ifndef WX_PRECOMP
-#	include <wx/wx.h>
+#include <wx/wx.h>
 #endif
 
 extern void initialize_images(void);
 
-extern wxBitmap *_img_projections;
+extern wxBitmap* _img_projections;
 
 #endif /* ICONS_H */

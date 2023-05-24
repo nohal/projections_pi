@@ -71,4 +71,3 @@ msgstr "Projektiot plugin tarjoaa vaihtoehtoisia projektioita\n"
 "Nämä projektiot voivat olla hyödyllisiä navigoinnin datan tarkemmassa tulkinnassa\n"
 "Mercator projektiot ovat erityisesti vinossa korkeilla leveysasteilla.\n\n"
 " Tämä laajennus vaatii OpenGL:n käyttöön.\n"
-

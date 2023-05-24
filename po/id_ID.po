@@ -71,4 +71,3 @@ msgstr "Proyeksi proyeksi menawarkan proyeksi alternatif\n"
 " Proyeksi ini mungkin berguna untuk penafsiran yang lebih akurat terhadap data navigasi\n"
 " Proyeksi Mercator sangat condong ke lintang tinggi.\n\n"
 " Plugin ini membutuhkan OpenGL yang diaktifkan.\n"
-

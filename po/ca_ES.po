@@ -67,4 +67,3 @@ msgid "Projections plugin offers alternative projections\n"
 "Mercator projections are especially skewed in high latitudes.\n\n"
 "  This plugin requires OpenGL enabled.\n"
 msgstr ""
-

@@ -31,16 +31,16 @@
 
 #include "version.h"
 
-#define     MY_API_VERSION_MAJOR    1
-#define     MY_API_VERSION_MINOR    13
+#define MY_API_VERSION_MAJOR 1
+#define MY_API_VERSION_MINOR 13
 
 #define ABOUT_AUTHOR_URL "http://seandepagnier.users.sourceforge.net"
 
-#include <wx/fileconf.h>
 #include "ocpn_plugin.h"
+#include <wx/fileconf.h>
 
-#define PROJECTIONS_TOOL_POSITION -1          // Request default positioning of toolbar tool
-
+#define PROJECTIONS_TOOL_POSITION                                              \
+    -1 // Request default positioning of toolbar tool
 
 //----------------------------------------------------------------------------------------------------------
 //    The PlugIn Class Definition
@@ -48,38 +48,44 @@
 
 class PreferencesDialog;
 
-enum Projection { MERCATOR, ORTHOGRAPHIC, POLAR, STEREOGRAPHIC, GNOMONIC, EQUIRECTANGULAR, NUM_PROJECTIONS };
+enum Projection {
+    MERCATOR,
+    ORTHOGRAPHIC,
+    POLAR,
+    STEREOGRAPHIC,
+    GNOMONIC,
+    EQUIRECTANGULAR,
+    NUM_PROJECTIONS
+};
 
-class projections_pi : public wxEvtHandler, public opencpn_plugin_113
-{
+class projections_pi : public wxEvtHandler, public opencpn_plugin_113 {
 public:
-    projections_pi( void *ppimgr );
+    projections_pi(void* ppimgr);
 
-//  The required PlugIn Methods
-    int Init( void );
-    bool DeInit( void );
+    //  The required PlugIn Methods
+    int Init(void);
+    bool DeInit(void);
 
     int GetAPIVersionMajor();
     int GetAPIVersionMinor();
     int GetPlugInVersionMajor();
     int GetPlugInVersionMinor();
-    wxBitmap *GetPlugInBitmap();
+    wxBitmap* GetPlugInBitmap();
     wxString GetCommonName();
     wxString GetShortDescription();
     wxString GetLongDescription();
 
-    void SetCurrentViewPort(PlugIn_ViewPort &vp);
-    void ShowPreferencesDialog( wxWindow* parent );
+    void SetCurrentViewPort(PlugIn_ViewPort& vp);
+    void ShowPreferencesDialog(wxWindow* parent);
     void OnContextMenuItemCallback(int id);
 
 private:
+    bool LoadConfig(void);
+    bool SaveConfig(void);
 
-    bool LoadConfig( void );
-    bool SaveConfig( void );
+    wxFileConfig* m_pConfig;
 
-    wxFileConfig     *m_pConfig;
-
-    wxMenuItem *m_projection_menuitem[NUM_PROJECTIONS];
+    wxMenuItem* m_projection_menuitem[NUM_PROJECTIONS];
     int m_projection_menu_id[NUM_PROJECTIONS];
 };
 
