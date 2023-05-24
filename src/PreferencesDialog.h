@@ -25,8 +25,6 @@
  */
 
 #include "ProjectionsUI.h"
-#include "ocpn_plugin.h"
-#include <wx/dcmemory.h>
 
 class PreferencesDialog : public PreferencesDialogBase {
 public:
@@ -34,7 +32,7 @@ public:
         : PreferencesDialogBase(parent)
     {
     }
-    void Refresh() { RequestRefresh(GetOCPNCanvasWindow()); }
+    void Refresh();
     virtual void Refresh(wxScrollEvent& event) { Refresh(); }
     virtual void Refresh(wxCommandEvent& event) { Refresh(); }
     virtual void Refresh(wxSpinEvent& event) { Refresh(); }

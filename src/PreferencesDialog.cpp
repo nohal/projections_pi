@@ -26,8 +26,11 @@
 
 #include "PreferencesDialog.h"
 #include "projections_pi.h"
+#include <wx/dcmemory.h>
 
 void PreferencesDialog::OnAboutAuthor(wxCommandEvent& event)
 {
     wxLaunchDefaultBrowser(_T(ABOUT_AUTHOR_URL));
 }
+
+void PreferencesDialog::Refresh() { RequestRefresh(GetOCPNCanvasWindow()); }

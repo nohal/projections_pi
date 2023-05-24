@@ -30,7 +30,7 @@ set(PKG_VERSION "0.3.0")
 set(PKG_PRERELEASE "") # Empty, or a tag like 'beta'
 
 set(DISPLAY_NAME projections) # Dialogs, installer artifacts, ...
-set(PLUGIN_API_NAME projections) # As of GetCommonName() in plugin API
+set(PLUGIN_API_NAME Projections) # As of GetCommonName() in plugin API
 set(PKG_SUMMARY "NMEA0183 to SignalK converter")
 set(PKG_DESCRIPTION
     [=[
