@@ -31,10 +31,13 @@ set(PKG_PRERELEASE "") # Empty, or a tag like 'beta'
 
 set(DISPLAY_NAME projections) # Dialogs, installer artifacts, ...
 set(PLUGIN_API_NAME Projections) # As of GetCommonName() in plugin API
-set(PKG_SUMMARY "NMEA0183 to SignalK converter")
+set(PKG_SUMMARY "Projections plugin offers alternative projections")
 set(PKG_DESCRIPTION
     [=[
-  NMEA0183 to SignalK converter
+  These projections may be useful for a more accurate interpretation of
+  of navigational data.
+  Mercator projections are especially skewed in high latitudes.
+  This plugin requires OpenGL enabled.
 ]=])
 
 set(PKG_AUTHOR "Sean D'Epagnier")
